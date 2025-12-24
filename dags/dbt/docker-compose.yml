@@ -1,0 +1,16 @@
+services:
+  dbt:
+    build: .
+    container_name: dbt_dev
+    volumes:
+      - ./dbt_project:/usr/app/dbt
+      - ./profiles.yml:/root/.dbt/profiles.yml
+    env_file:
+      - .env
+
+    # ⬇️⬇️⬇️ 重点修改这里 ⬇️⬇️⬇️
+    # 1. 强制使用 bash 作为入口，覆盖默认的 dbt
+    entrypoint: /bin/bash
+
+    # 2. 让 bash 执行无限睡眠，保持容器不退出
+    command: -c "sleep infinity"

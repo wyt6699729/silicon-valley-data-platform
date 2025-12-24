@@ -1,0 +1,19 @@
+# Astro generated
+.astro/
+airflow_settings.yaml
+
+# Airflow runtime noise
+logs/
+plugins/
+tmp/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# dbt artifacts (dbt 编译产生的文件不需要上传)
+dags/dbt/target/
+dags/dbt/dbt_packages/
+dags/dbt/logs/

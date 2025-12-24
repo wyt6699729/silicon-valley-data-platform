@@ -1,0 +1,12 @@
+# Astro Runtime includes the following pre-installed providers packages: https://www.astronomer.io/docs/astro/runtime-image-architecture#provider-packages
+# Astro Runtime includes the following pre-installed providers packages: https://www.astronomer.io/docs/astro/runtime-image-architecture#provider-packages
+
+# dbt 核心库与 Snowflake 适配器
+dbt-core>=1.7.0
+dbt-snowflake>=1.7.0
+
+# Astronomer Cosmos: 让 Airflow 自动读取 dbt 项目的神器
+astronomer-cosmos>=1.2.0
+
+# Snowflake Python 连接器 (为后续 Python 任务做准备)
+snowflake-connector-python[pandas]

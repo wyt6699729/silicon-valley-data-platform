@@ -1,0 +1,14 @@
+silicon_valley_dbt:
+  outputs:
+    dev:
+      account: '{{ env_var(''SNOWFLAKE_ACCOUNT'') }}'
+      client_session_keep_alive: false
+      database: '{{ env_var(''SNOWFLAKE_DATABASE'') }}'
+      password: '{{ env_var(''SNOWFLAKE_PASSWORD'') }}'
+      role: '{{ env_var(''SNOWFLAKE_ROLE'') }}'
+      schema: public
+      threads: 4
+      type: snowflake
+      user: '{{ env_var(''SNOWFLAKE_USER'') }}'
+      warehouse: '{{ env_var(''SNOWFLAKE_WAREHOUSE'') }}'
+  target: dev

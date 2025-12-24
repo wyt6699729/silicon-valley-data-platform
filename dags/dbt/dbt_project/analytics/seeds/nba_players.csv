@@ -1,0 +1,11 @@
+player_id,player_name,team_city,team_name,jersey_number,position,height_inches,weight_lbs,draft_year
+101,LeBron James,Los Angeles,Lakers,23,F,81,250,2003
+102,Stephen Curry,Golden State,Warriors,30,G,74,185,2009
+103,Kevin Durant,Phoenix,Suns,35,F,82,240,2007
+104,Nikola Jokic,Denver,Nuggets,15,C,83,284,2014
+105,Luka Doncic,Dallas,Mavericks,77,G,79,230,2018
+106,Giannis Antetokounmpo,Milwaukee,Bucks,34,F,83,242,2013
+107,Jayson Tatum,Boston,Celtics,0,F,80,210,2017
+108,Joel Embiid,Philadelphia,76ers,21,C,84,280,2014
+109,Jimmy Butler,Miami,Heat,22,F,79,230,2011
+110,Kawhi Leonard,Los Angeles,Clippers,2,F,79,225,2011
